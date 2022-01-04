@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce_udemy.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce_udemy.settings.base')
 
 application = get_wsgi_application()

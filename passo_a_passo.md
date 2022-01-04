@@ -5,7 +5,9 @@ sudo chmod -R 777 core
 
 heroku login
 ssh-keygen -t rsa -C "aprendizadopython@gmail.com"
-
+heroku keys:add
+git remote add heroku https://git.heroku.com/eccomerce-udemy.git
+git remote -v
 
 # Instalação Framework e bibliotecas
 pip freeze > requirements.txt
