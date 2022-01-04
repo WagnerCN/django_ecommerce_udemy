@@ -1,6 +1,12 @@
 python3 -m venv .venv
 sudo chmod -R 777 core
 
+# Heroku
+
+heroku login
+ssh-keygen -t rsa -C "aprendizadopython@gmail.com"
+
+
 # Instalação Framework e bibliotecas
 pip freeze > requirements.txt
 pip install -r requirements.txt
